@@ -1,0 +1,19 @@
+/* Back-end style - block  */
+
+div.four_chan_container {
+	border: 3px solid black;
+	padding: 30px;
+	background: #00ff00;
+	display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+
+div.four_chan_container select {
+  max-width: 240px;
+  width: 100%;
+}
